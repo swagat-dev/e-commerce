@@ -1,0 +1,18 @@
+<div class="content-container">
+    <div class="content-body" *ngFor="let item of displayItems">
+        <div class="image">
+            <img src="../../assets/images/trolley.png" alt="">
+        </div>
+        <div class="product-name">
+            {{ item.productName }}
+        </div>
+        <div class="">
+            {{ item.description }}
+        </div>
+        <div class="add-to-cart">
+            <button (click)="addtocart(item)">
+                ADD to Cart ( {{ item.productPrice | currency }} )
+            </button>
+        </div>
+    </div> 
+</div>

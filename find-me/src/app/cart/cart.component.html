@@ -1,0 +1,20 @@
+<div class="header">
+    My Cart
+</div>
+<div class="cart-body">
+    <div class="cart-list" *ngFor="let item of addedCartItems">
+        <span>{{item.productName}}</span>
+        <span>{{item.productPrice | currency}}</span>
+        <input type="number" [value] = "item.availableQuantity" (change)="onValueChange($event , item)">
+        <!-- <span>{{item.totalAmount | currency}}</span> -->
+        <img src="../../assets/images/cancel.png" alt="">
+    </div>
+    <div class="cart-list">
+        Total : {{ totalAmount | currency }}
+    </div>
+    <div class="checkout">
+        <button (click) = "checkout()">
+            Checkout
+        </button>
+    </div>
+</div>

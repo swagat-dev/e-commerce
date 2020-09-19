@@ -1,0 +1,31 @@
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+
+    .content-body {
+        width: 30%;
+        margin: 20px;
+
+        .image {
+            text-align: center;
+            height: 180px;
+        }
+
+        .product-name {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .add-to-cart {
+            text-align: center;
+            margin-top: 25px;
+            
+            button {
+                cursor: pointer;
+            }
+        }
+    }
+}

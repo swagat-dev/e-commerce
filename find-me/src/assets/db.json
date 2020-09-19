@@ -1,0 +1,46 @@
+{
+    "productlist" : [
+        {
+            "productName" : "product0",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "productPrice" : 10,
+            "availableQuantity" : 3,
+            "ProductImage" : ""
+        },
+        {
+            "productName" : "product1",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "productPrice" : 20,
+            "availableQuantity" : 1,
+            "ProductImage" : ""
+        },
+        {
+            "productName" : "product2",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "productPrice" : 30,
+            "availableQuantity" : 1,
+            "ProductImage" : ""
+        },
+        {
+            "productName" : "product3",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "productPrice" : 40,
+            "availableQuantity" : 1,
+            "ProductImage" : ""
+        },
+        {
+            "productName" : "product4",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "productPrice" : 50,
+            "availableQuantity" : 1,
+            "ProductImage" : ""
+        },
+        {
+            "productName" : "product5",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "productPrice" : 60,
+            "availableQuantity" : 1,
+            "ProductImage" : ""
+        }
+    ]
+}

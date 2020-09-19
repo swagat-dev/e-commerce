@@ -1,0 +1,31 @@
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #3c3939;
+    color: white;
+    font-size: 18px;
+}
+
+.cart-body {
+    text-align: center;
+    .cart-list {
+        height: 40px;
+        margin-top: 10px;
+
+        span {
+            margin-left: 20px;
+        }
+
+        input {
+            margin-left: 20px;
+        }
+        img {
+            top: 6px;
+            position: relative;
+            margin-left: 40px;
+        }
+    }
+}
